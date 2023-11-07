@@ -1,0 +1,1030 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem; 
+}
+
+.overallContact{
+    border-bottom: 1px solid #F2003C;
+    border-top: 1px solid rgb(3, 60, 70);
+}
+ul{
+    list-style-type: none;
+}
+
+.firstHead{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstHead .fa-bars{
+    display: none;   
+} 
+
+.icons{
+    width: 20%;
+}
+
+.social{
+    font-size: 1.5em;
+    color: #F2003C;
+    padding: 8% 4%;
+}
+
+.social:hover{
+    background: #F2003C;
+    color: white;
+    border: 2px solid #F2003C;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.outerLogoSect{
+    flex-basis: 40%;
+}
+.logoSect{
+    margin: 0 auto;
+    border-top: 2px solid #F2003C;
+    border-bottom: 2px solid #F2003C;
+    border-radius: 15px;
+    height: 90%;
+    width: 40%;
+    margin-top: 1%;
+    text-align: center;
+}
+.logoSect span{
+    display: block;
+}
+
+.logo{
+    font-size: 3em;
+    font-family: 'Tangerine', sans-serif;
+    font-weight: bold;
+    padding: 1% 1%;
+}
+.motto{
+    font-size: 1.2em;
+    font-family: 'Kaushan Script', 'cursive', sans-serif;
+}
+
+.callingNumber{
+    width: 15%;
+    padding: 1% 1%;
+    text-align: center;
+}
+
+.socialCall{
+    font-size: 1.5em;
+    color: #F2003C;
+}
+
+.number{
+    font-size: 1.2em;
+    margin-left: 7%;
+}
+
+.btn{
+    margin-top: 1%;
+    height: .8%;
+    background-color: #F2003C;
+    color: black;
+    text-decoration: none;
+    border: 2px solid Transparent;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .5% 1% .5% 1%;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2 );
+}
+  
+.headSecond{
+    height: 50px;
+}
+.headli{
+    margin: 1% auto;
+    padding: .5% 0;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.anko{
+    font-size: 1.2em;
+    font-family: 'Inconsolata', 'monospace';
+    font-weight: bold;
+    transition: .2s;
+    padding:0 10%;
+}
+.headli a{
+    text-decoration: none;
+    color: black;
+}
+
+.anko:hover{
+    background-color: transparent;
+    border-bottom: 2px solid rgb(3, 70, 70);
+    cursor: pointer;
+    color: #F2003C;
+}
+
+/* form start */
+
+
+.overallContact p{
+    font-size: .9em;
+    font-family: 'PT Serif', serif;
+    width: 43%;
+    margin: 3% auto 0 auto;
+}
+
+.contactBody{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1% 5% 5% 5% ;
+}
+
+.messageComment{
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3%;
+}
+.floatSide{
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 50%;
+    padding: 2%;
+}
+
+.floatSide input{
+    display: inline-block;
+    width: 80%;
+    height: 35px;
+    padding: 2% 35% 2% 4%;
+    border: 1px solid #F2003C;
+    outline: none;
+    border-radius: 7px;
+}
+  .emil{
+    color:  black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.container-2 {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.writeMessage textarea {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 5%;
+    border: 1px solid #F2003C;
+    border-radius: 7px;
+    height: 200px;
+}
+.mess{
+    display: block;
+    margin-right: 80%;
+    margin-bottom: 0.5%;
+    color:  black;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+  .container-2 input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(2, 67, 75);
+    color: white;
+    padding: 1% 2%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: .2s;
+    width: 10rem;
+    border: 1px solid transparent;
+}
+
+  .container-2 input[type="submit"]:hover {
+    border: 2px solid powderblue;
+    background-color: rgb(3, 60, 70);
+    cursor: pointer;
+    transform: translate(10px, 5px);
+}
+
+/* footer start */
+
+footer{
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer .content{
+    width: 80%;
+    margin: auto;
+    padding: 2% 2.1% 2.1% 2.1%;
+}
+
+footer .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.content .top .logo-details{
+    color: black;
+    font-size: 3em;
+    font-family: 'Tangerine', sans-serif;
+}
+
+footer .content .top{
+    display: flex;
+}
+
+.content .top .media-icons{
+    flex-basis: 20%;
+}
+
+.content .top .media-icons a{
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.top .media-icons a:nth-child(1){
+    background: #4267B2;
+    padding:3% 5% 3% 5%;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+    background: #fff;
+}
+.top .media-icons a:nth-child(2){
+    background: #1DA1F2;
+    padding:3% 3.5% 3% 3.5%;
+}
+.top .media-icons a:nth-child(2):hover{
+    color: #1DA1F2;
+    background: #fff;
+}
+.top .media-icons a:nth-child(3){
+    background: #F2003C;
+    padding:3% 4% 3% 4%;
+}
+.top .media-icons a:nth-child(3):hover{
+    color: #F2003C;
+    background: #fff;
+}
+.top .media-icons a:nth-child(4){
+    background: #0077B5;
+    padding:3% 4% 3% 4%;
+}
+.top .media-icons a:nth-child(4):hover{
+    color: #0077B5;
+    background: #fff;
+}
+
+footer .content .link-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .content .link-boxes .box{
+    width: calc(100% / 5 - 10px);
+}
+
+.content .link-boxes .box .link_name{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.link-boxes .box .link_name::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 10%;
+    background: #F2003C;
+    
+}
+
+.content .link-boxes .box li{
+    margin: 6px 0;
+    list-style: none;
+}
+
+.content .link-boxes .box li a{
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease
+}
+
+.content .link-boxes .box li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.box p{
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease
+}
+
+.box p:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+footer .bottom-details{
+    width: 100%;
+    background: #12192c;
+}
+
+footer .bottom-details .bottom_text{
+    max-width: 1250px;
+    margin: auto;
+    padding: .3% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: .9em;
+  font-weight: 300;
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.bottom-details .bottom_text a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+  .bottom-details .bottom_text a{
+    margin-right: 10px;
+}
+/* for pop up */
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: rgba(18, 25, 44,0.87);
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+   
+    width: 40rem; /* Add a maximum width to control the popup size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #12192c;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #F2003C; /* Blue color for the heading */
+  }
+
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    outline: none;
+  }
+  
+label {
+    display: block;
+    margin-top: 15px;
+    color:#12192c; /* Dark gray color for labels */
+}
+
+.gender-section {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #12192c;
+}
+  
+  /* Use flexbox to align the gender section correctly */
+  
+  
+.gender-section fieldset  {
+    display: inline-block;
+    border: none;
+    margin-right: 3rem;
+} 
+
+.gender-section fieldset:last-child{
+    margin-right: 11rem;
+
+}
+
+select{
+    font-size: 1.2rem;
+}
+  
+  
+  
+  /* Add some colors to the form elements */
+input[type="text"],
+input[type="email"],
+select {
+    background-color: #f9f9f9;
+}
+  
+button {
+    margin-top: 20px;
+    background-color: #F2003C;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+  
+  /* Style the button on hover */
+button:hover {
+    border: 3px solid #12192c; /* Darker blue color on hover */
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    body{
+        font-size: 1rem;
+        padding: 2%;
+    }
+
+    header .icons, header .callingNumber, header .btn {
+        display: none;
+    }
+
+    .firstHead{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+
+    }
+
+    .firstHead .fa-bars{
+        display: block;
+        margin: 3% 2% 0 0;
+        color: #F2003C;
+        font-size: 1.6em;
+        
+    }
+
+    .fa-times{
+        color: #F2003C;
+        margin: 3% 2% 0 0;
+        font-size: larger;
+    }
+
+    .headSecond{
+        display: none;
+        position: absolute;
+        background-color: rgba(242, 0, 60, 0.9);
+        z-index: 99999;
+        left:5; 
+        width: 70%;
+        height: 70%; 
+        top: 8%;
+    }
+    .headSecond .headli{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        justify-content: space-around;
+        padding: 3rem 0;
+    }
+
+    .headSecond .headli a{
+        color: white;
+    }
+
+    .headSecond.active{
+        display: block;
+    }
+
+    .outerLogoSect, .logoSect{
+        width: 85%;
+        height: 80%;
+    }
+    
+    .logo{
+        font-size: 1.5em;
+    }
+
+    .motto{
+        font-size: .6em;
+    }
+
+    .overallContact p{
+        font-size: .9em;
+        width: 90%;
+    }
+
+    .contactBody{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1% 5% 5% 3% ;
+    }
+    
+    .messageComment{
+        padding: 3% 0;
+    }
+
+    .floatSide{
+        float: none;
+        margin-top: 1%;
+        margin-bottom: 0;
+        width: 100%;
+        padding: 2% 0;
+    }
+    
+    .floatSide input{
+        width: 80%;
+        height: 30px;
+        padding: 1% 35% 1% 4%;
+    }
+      .emil{
+        font-size: 1em;
+    }
+    
+    
+    .writeMessage textarea {
+        width: 98%;
+    }
+    .mess{
+        display: block;
+        margin-right: 77%;
+        font-size: 1em;
+    }
+    
+      .container-2 input[type="submit"] {
+        font-size: 1em;
+        width: 5rem;
+    }
+    
+
+
+
+    footer{
+        height: 400px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+    
+    
+    footer .content{
+        width: 90%;
+        margin: auto;
+        padding: 10% 0 2.1% 0;
+    }
+    
+    footer .content .top{
+        flex-direction: column;
+    }
+    
+    .content .top .logo-details{
+        color: black;
+        font-size: 1.5em;
+        font-family: 'Tangerine', sans-serif;
+    }
+    
+    
+    .content .top .media-icons{
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .content .top .media-icons a{
+        margin: 0 5px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        color: black;
+        font-size: .8em;
+        text-decoration: none;
+        transition: all 0.4s ease;
+    }
+    
+    
+    footer .content .link-boxes{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    footer .content .link-boxes .box{
+        width: 40%;
+        margin: 5% 5%;
+    }
+    
+    .content .link-boxes .box .link_name{
+        font-size: .9em;
+    }
+    
+    .link-boxes .box .link_name::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        height: 2px;
+        width: 15%;
+        background: #F2003C;
+    }
+    
+    
+    .content .link-boxes .box li a{
+        font-size: .8em;
+    }
+    
+    .box p{
+        font-size: .8em;
+    }
+    
+    footer .bottom-details .bottom_text{
+        margin: auto;
+        padding: .3% 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a{
+      font-size: .8em;
+    }
+
+    
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    body{
+        font-size: 1rem;
+        padding: 2%;
+    }
+
+    header .icons, header .callingNumber, header .btn {
+        display: none;
+    }
+
+    .firstHead{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+
+    }
+
+    .firstHead .fa-bars{
+        display: block;
+        margin: 3% 2% 0 0;
+        color: #F2003C;
+        font-size: 1.6em;
+        
+    }
+
+    .fa-times{
+        color: #F2003C;
+        margin: 3% 2% 0 0;
+        font-size: larger;
+    }
+
+    .headSecond{
+        display: none;
+        position: absolute;
+        background-color: rgba(242, 0, 60, 0.9);
+        z-index: 99999;
+        left:5%; 
+        width: 80%;
+        height: 80%; 
+        top: 15%;
+    }
+    .headSecond .headli{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        justify-content: space-around;
+        padding: 3rem 0;
+    }
+
+    .headSecond .headli a{
+        color: white;
+    }
+
+    .headSecond.active{
+        display: block;
+    }
+
+    .outerLogoSect, .logoSect{
+        width: 85%;
+        height: 80%;
+    }
+    
+    .logo{
+        font-size: 1.5em;
+    }
+
+    .motto{
+        font-size: .6em;
+    }
+
+    .overallContact p{
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .contactBody{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1% 5% 5% 3% ;
+    }
+    
+    .messageComment{
+        padding: 3% 0;
+    }
+
+    .floatSide{
+        float: none;
+        margin-top: 1%;
+        margin-bottom: 0;
+        width: 70%;
+        padding: 2% 9%;
+    }
+    
+    .floatSide input{
+        width: 80%;
+        height: 30px;
+        padding: 1% 35% 1% 4%;
+    }
+      .emil{
+        font-size: 1.1em;
+    }
+    
+    
+    .writeMessage textarea {
+        width: 80%;
+    
+    }
+    .mess{
+        display: block;
+        margin-right: 70%;
+        font-size: 1.1em;
+    }
+    
+      .container-2 input[type="submit"] {
+        font-size: 1em;
+        width: 7rem;
+    }
+    
+    footer{
+        height: 300px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+    
+    
+    footer .content{
+        width: 90%;
+        margin: auto;
+        padding: 10% 0 2.1% 0;
+    }
+    
+    footer .content .top{
+        flex-direction: column;
+    }
+    
+    .content .top .logo-details{
+        color: black;
+        font-size: 1.7em;
+        font-family: 'Tangerine', sans-serif;
+    }
+    
+    
+    .content .top .media-icons{
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .content .top .media-icons a{
+        margin: 0 5px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        color: black;
+        font-size: .8em;
+        text-decoration: none;
+        transition: all 0.4s ease;
+    }
+    
+    .top .media-icons a:nth-child(1){
+        padding:2% 2.6% 2% 2.6%;
+    }
+
+    .top .media-icons a:nth-child(2){
+        padding:2.1% 2.4% 2.1% 2.4%;
+    }
+
+    .top .media-icons a:nth-child(3){
+        padding:2.1% 2.5% 2.1% 2.5%;
+    }
+
+    .top .media-icons a:nth-child(4){
+        padding:2.1% 2.5% 2.1% 2.5%;
+    }
+    
+    footer .content .link-boxes{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    footer .content .link-boxes .box{
+        width: 40%;
+        margin: 5% 5%;
+    }
+    
+    .content .link-boxes .box .link_name{
+        font-size: 1em;
+    }
+    
+    .link-boxes .box .link_name::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        height: 2px;
+        width: 8%;
+        background: #F2003C;
+        
+    }
+    
+    
+    .content .link-boxes .box li a{
+        font-size: .9em;
+    }
+    
+    .box p{
+        font-size: .9em;
+    }
+    
+    footer .bottom-details .bottom_text{
+        margin: auto;
+        padding: .3% 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a{
+      font-size: .8em;
+    }
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+    .firstHead{
+        display: flex;
+        justify-content: space-evenly;
+        height: 80px;
+    
+    }
+    
+    .firstHead .fa-bars{
+        display: none;  
+    }
+    
+    .callingNumber{
+        width: 20%;
+        padding: 1% 0;
+    }
+    
+    
+    .number{
+        font-size: 1.1em;
+    }
+    
+    .btn{
+        height: 40%;
+    }
+    
+    .anko a{
+        font-size: 1.1em;
+    }
+    
+    .outerLogoSect, .logoSect{
+        width: 60%;
+        height: 95%;
+    }
+    
+    .logo{
+        font-size: 2.5em;
+    }
+    
+    .motto{
+        font-size: 1em;
+    }
+
+    .contactBody{
+        width: 70%;
+    }
+    
+    .floatSide{
+        width: 50%;
+    }
+    
+    .floatSide input{
+        width: 75%;
+    }
+      .emil{
+        font-size: 1.1em;
+    }
+    
+    .writeMessage textarea {
+        width: 90%;
+    }
+    .mess{
+        margin-right: 75%;
+    }
+    
+      .container-2 input[type="submit"] {
+        font-size: 1.1em;
+    }
+
+    .content .top .media-icons{
+        flex-basis: 40%;
+    }
+
+    .link-boxes .box .link_name::before{
+        width: 15%;    
+    }
+
+}

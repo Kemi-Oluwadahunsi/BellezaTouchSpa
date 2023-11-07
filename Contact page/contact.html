@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kaushan+Script&family=Lobster&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kaushan+Script&family=Lobster&family=PT+Serif&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kaushan+Script&family=Lobster&family=PT+Serif&family=Poppins:wght@200;300;400;500;600;700&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./contact.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <section class="firstHead">
+                <section class="icons">
+                    <i class="fa-brands fa-facebook social"></i>
+                    <i class="fa-brands fa-square-instagram social"></i>
+                    <i class="fa-brands fa-square-twitter social"></i>
+                    <i class="fa-brands fa-linkedin social"></i>
+                </section>
+
+                <section class="outerLogoSect">
+                    <section class="logoSect">
+                        <span class="logo">Belleza's Touch</span>
+                        <span class="motto">Skin beauty at nature's best</span>
+                    </section>
+
+                </section>
+                
+                <section class="callingNumber">
+                    <i class="fa-solid fa-square-phone socialCall"></i>
+                    <span class="number">+60 111 321 9046</span>
+                </section>
+                <a href="#" class="btn">BOOK NOW</a>
+                <i class="fa-solid fa-bars" id="toggleButton"></i>
+            </section>
+
+
+            <section class="headSecond">
+                <ul class="headli">
+                    <li><a class="anko" href="./index.html">HOME</a></li>
+                    <li><a class="anko" href="./Treatment%20page/treatment.html" target="_blank">TREATMENTS</a></li>
+                    <li><a class="anko" href="./Skincare%20page/skincare.html" target="_blank">SKINCARE</a></li>
+                    <li><a class="anko" href="./About%20page/about.html" target="_blank">ABOUT</a></li>
+                    <li><a class="anko" href="./Gallery%20page/gallery.html" target="_blank">GALLERY</a></li>
+                    <li><a class="anko" href="./Special%20Offer%20Page/special.html" target="_blank">SPECIALS</a></li>
+                    <li><a class="anko" href="./Contact%20page/contact.html" target="_blank">CONNECT</a></li>
+                </ul>  
+            </section>
+            
+        </nav>
+       
+    </header>
+
+    
+    
+    <section class="overallContact">
+
+        <p>
+            For more enquiries, detailed explanations, availability, and directions, kindly fill the information below <i class="fa-solid fa-hand-point-down"></i>
+        </p>
+        
+        <section class="contactBody">
+            <section class="messageComment">
+                <form class="floatSide shiftLeft">
+                    <label class="sideBySide emil" for="name">Name:</label>
+                    <input class="" type="text" id="name" name="name" placeholder="Example: John Smith" required>
+                </form>
+                <form class="floatSide emilly">
+                    <label class="sideBySide emil" for="email">Email:</label>
+                    <input class="sideBySide emily" type="email" id="email" name="email" placeholder="example@mail.com" required>
+                </form>    
+            </section>
+            <section class="container-2">
+                <section class="writeMessage">
+                    <form class="messageMe">
+                        <label class="mess" for="message">Message:</label>
+                      <textarea id="message" name="message" placeholder="Type Your Message.." required></textarea>
+                    
+                      <input type="submit" value="Submit">
+                    </form>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <div id="popup">
+        <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2>Book Now</h2>
+          <form id="booking-form">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+      
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+      
+           <!-- ... Other form fields ... -->
+
+            <div class="gender-section">
+                <label>Gender</label>
+                <fieldset>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        
+                </fieldset>
+                <fieldset>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="Female" checked>
+                        
+                </fieldset>
+                
+            </div>
+
+                    <!-- ... Other form fields ... -->
+
+      
+            <label for="booking">Booking</label>
+            <select id="booking" name="booking" required>
+              <option value="Facial Touch">Facial Touch</option>
+              <option value="Body Treat">Body Treat</option>
+              <option value="Nail and Lash Art">Nail and Lash Art</option>
+              <option value="Massage Therapy">Massage Therapy</option>
+            </select>
+      
+            <label for="bookingDateTime">Booking Date and Time</label>
+            <input type="datetime-local" id="bookingDateTime" name="bookingDateTime" required>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+    </div>
+      
+
+
+
+    <footer>
+        <section class="content">
+            <section class="top">
+                <section class="logo-details">
+                    <span class="logo_name">Belleza's Touch</span>
+                </section>
+
+                <section class="media-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </section>
+            </section>
+
+            <section class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Explore</li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../About page/about.html">About Us</a></li>
+                    <li><a href="../Contact page/contact.html">Connect</a></li>
+                    <li><a href="#">Bookings</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Services</li>
+                    <li><a href="../Treatment page/treatment.html">Treatments</a></li>
+                    <li><a href="../Skincare page/skincare.html">Skincare</a></li>
+                    <li><a href="../Special Offer Page/special.html">Specials</a></li>
+                    <li><a href="../Skincare page/skincare.html">Consultation</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Contact</li>
+                    <li><a href="#">+91 2736273371</a></li>
+                    <li><a href="#">+91 8986352700</a></li>
+                    <li><a href="mailto:kemilat50@mail.com">kemilat50@gmail.com</a></li>
+                </ul>
+
+                <section class="box">
+                    <h4 class="link_name">Location</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> 123, Allen Avenue, P.O.Box 13342, Histon layout, collorado, Beingin.</p>
+                </section>
+
+
+
+            </section>
+        </section>
+
+        <section class="bottom-details">
+            <section class="bottom_text">
+                <span class="copyright_text">Copyright © 2023 | <a href="#"> designed by KodeMaven</a></span>
+            </section>
+        </section>
+    </footer>
+</body>
+
+    <script src="https://kit.fontawesome.com/ae929ef5dc.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ae929ef5dc.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ae929ef5dc.js" crossorigin="anonymous"></script>
+    <script src="../script.js"></script>
+</html>
